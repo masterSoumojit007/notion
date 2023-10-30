@@ -1,0 +1,69 @@
+YOU HAVE TO RUN npx convex dev   (for backend)
+YOU HAVE TO RUN npm run dev   (for frontend)
+
+
+-:ENVIRONMENT SETUP:-
+npx create-next-app@latest notion-clone
+
+npx shadcn-ui@latest init
+
+npm run dev
+
+npx shadcn-ui@latest add button
+
+
+-:Install next-themes(Dark mode):-
+npm install next-themes
+
+npx shadcn-ui@latest add dropdown-menu
+
+-:Authentication and database:-
+
+npm install convex
+npx convex dev
+
+install clerk
+npm install @clerk/clerk-react
+
+-:SIDEBAR:-
+npm i usehooks-ts
+
+
+-:USER SETTINGS:-
+npx shadcn-ui@latest add avatar
+
+
+-:SCHEMA AND API:-
+npm i sonner
+
+-:DOCUMENT LIST:-
+npx shadcn-ui@latest add skeleton
+
+-:TRASH BOX:-
+npx shadcn-ui@latest add popover
+npx shadcn-ui@latest add input
+npx shadcn-ui@latest add alert-dialog
+
+-:SEARCH FUNCTIONALITY:-
+npm i zustand
+npx shadcn-ui@latest add command
+
+
+-:SETTINGS:-
+npx shadcn-ui@latest add label
+
+-:TOOLBAR COMPONENT:-
+npm i emoji-picker-react
+npm i react-textarea-autosize
+
+-:COVER IMAGE:-
+
+first SETUP EDGE STORE
+
+npm install @edgestore/server @edgestore/react zod
+npm install tailwind-merge react-dropzone lucide-react
+
+-:EDITOR COMPONENT:-
+npm i @blocknote/react @blocknote/core
+
+
